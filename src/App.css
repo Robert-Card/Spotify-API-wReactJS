@@ -16,7 +16,7 @@
 .pageStyle div:first-child{
   background-color: var(--PrC);
   padding: 1rem;
-  border-radius: 10px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .pageStyle div:first-child p{
@@ -43,6 +43,7 @@
   flex-wrap: nowrap;
   padding: 0.5rem;
   gap: 0.5rem;
+  border-radius: 0px 0px 10px 10px;
   
 }
 
@@ -55,6 +56,11 @@
   height: 1.5rem;
   text-align: center;
 }
+
+.pageStyle form a{
+  color: whitesmoke;
+  text-decoration: underline;
+} 
 
 .logo {
   height: 6em;
