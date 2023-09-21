@@ -7,7 +7,7 @@ function App() {
   // Authorization token that must have been created previously. See : https://developer.spotify.com/documentation/web-api/concepts/authorization
   const [topFiveSongs, setTopFiveSongs]: TopSongs = useState({});
   const [artist, setArtist] = useState({});
-  const token = 'BQCIPsNSOJ6YTr051h9nmwDPIXjAqhK3QqGCjcjFxcLZU3_YfhmF06tf1WJxbu5yUSn8ef9GPhOgXC3VAFcQ1Ye5Un_UById1x-_fMJ3kO3Sl2d1iOeHQO0bx1Vk-z36erX9LGVqCl1SP3yCBK9aMgoPLruP4N0gSGdOAi7NGKYEawB4Pni7zpU8i29Q8_tmkQh2uvf7L5rh3TPxKTzPpy8Whr4lJbjXd_a5I9CdDUGxADcVaoDTu5gtHKFnIl3_E4i5';
+  const token = 'BQDwNx60Zn-T_u9fe99mRVPdi3rrmtMeeOOqTQlq4dnZecEmn8MFoe4Zl_vNcxEn2lYbp2b6PUcowyFN-4K5_kwr0ZAPVnn10kcsjqG_Wd8trZwbdJO14TK2FzpvLAEPsPVB2tKKkSkDG7EAwraIdo_xbZfdBGlRCyVdp31PCvi8fvp_t_ckonytXEX8qdy9jds2oD-kVmdMhSOEYxhMw9PWmhDk64DZETH1jS39jcpL4emhYvqt-bO2F8cxx83byh-F';
   async function fetchWebApi(endpoint, method) {
     const res = await fetch(`https://api.spotify.com/${endpoint}`, {
       headers: {
