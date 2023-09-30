@@ -2,18 +2,15 @@
 
 Esse projeto utiliza a API do spotify para mostrar as músicas recentes mais reproduzidas pelo o usuário, uma lista de recomendações do próprio Spotify, além de permitir buscar novos cantores ou faixas.
 
-```
-O projeto utilizou ViteJS com React e Typescript:
+#### O projeto utilizou ViteJS com React e Typescript:
 
 -
 [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) use [Babel](https://babeljs.io/) para Fast Refresh
 
-e TailwindCSS para estilização:
+#### e TailwindCSS para estilização:
 
 -
 [@tailwindcss](https://tailwindcss.com/)
-```
-
 
 ## Qual problema o site resolve?
 
