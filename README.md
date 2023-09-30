@@ -8,8 +8,7 @@ O projeto utilizou ViteJS com React e Typescript:
 
 e TailwindCSS para estilização:
 
--
-[@tailwindcss](https://tailwindcss.com/)
+-[@tailwindcss](https://tailwindcss.com/)
 
 ## Qual problema o site resolve?
 
