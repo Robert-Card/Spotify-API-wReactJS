@@ -1,27 +1,20 @@
-# React + TypeScript + Vite
+# React + TypeScript + ViteJS + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto utiliza a API do spotify para mostrar as músicas recentes mais reproduzidas pelo o usuário, uma lista de recomendações do próprio Spotify, além de permitir buscar novos cantores ou faixas.
 
-Currently, two official plugins are available:
+O projeto utilizou ViteJS com React e Typescript:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) use [Babel](https://babeljs.io/) para Fast Refresh
+- 
 
-## Expanding the ESLint configuration
+## Qual problema o site resolve?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Por ser bem poluído visualmente e com muito conteúdo, o Spotify torna difícil de se encontrar determinadas informações que ao meu ver são interessantes, como seus artistas e músicas favoritos, ou até mesmo o que você mais anda acompanhando nos últimos tempos. além disso, o site também apresenta a lista de recomendações do Spotify, caso queira conhecer novas faixas.
 
-- Configure the top-level `parserOptions` property like this:
+## O que foi aprendido?
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Fazer requisições de uma API, além da aplicação e conceitos do Typescript, que por conta da sua estrutura bem definida, dificulta muito a ocorrência de bugs principalmente nas variáveis. 
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Com certeza aplicarei o .TSX/.TS na maior parte daqui pra frente. Além de ter descoberto o poder do ViteJS, que se mostrou muito mais  rápido e prático de se trabalhar do que o Creat React App.
+
+### Obrigado pela atenção!
